@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "android";
+    src: url("../font/idroid.otf") format("opentype");
+    font-weight: normal;
+}
+
+:root{
+    --fonte-android: 'android', sans-serif;
+}
