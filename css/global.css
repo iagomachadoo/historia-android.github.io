@@ -5,5 +5,29 @@
 }
 
 :root{
-    --fonte-android: 'android', sans-serif;
+    --fonte-destaque: 'android', sans-serif;
+    --fonte-padrao: 'Roboto', sans-serif;
+    --fundo-1:#ACFFD2;
+    --fundo-2:#001F0E;
+    --titulo-1-padrao:#333333;
+    --titulo-1-destaque:#00451F;
+    --titulo-2-destaque:#00632D;
+    --titulo-3-destaque:#2DC170;
+    --texto-1:#4C4C4C;
+    --texto-2:#808080;
+    --texto-3:#4EE894;
+    --texto-4:#3DDA84;
+    --icone:#1C9E57;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
