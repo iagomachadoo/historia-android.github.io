@@ -1,0 +1,81 @@
+.historia-mascote{
+    padding: 0 20px;
+}
+
+.historia-mascote p{
+    max-width: 69ch;
+}
+
+.img-dan-droids{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.legenda{
+    text-align: center;
+}
+
+@media(max-width: 970px){
+    .historia-mascote p{
+        max-width: initial;
+    }
+}
+
+@media(max-width: 900px){
+    .historia-mascote h2:first-child{
+        font-size: 2rem;
+    }
+
+    .historia-mascote h2{
+        font-size: 1.75rem;
+    }
+
+    .historia-mascote p{
+        font-size: 1.125rem;
+    }
+
+    .legenda{
+        font-size: 1.125rem;
+    }
+}
+
+@media(max-width: 700px){
+    .historia-mascote h2:first-child{
+        margin-top: 60px;
+    }
+
+    .historia-mascote p{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 600px){
+    .historia-mascote h2:first-child{
+        font-size: 1.75rem;
+        margin-top: 40px;
+    }
+
+    .historia-mascote h2{
+        font-size: 1.375rem;
+        margin-bottom: 20px;
+    }
+
+    .historia-mascote p, .legenda{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 400px){
+    .historia-mascote h2:first-child{
+        font-size: 1.5rem;
+        max-width: 20ch;
+    }
+
+    .historia-mascote h2{
+        font-size: 1.125rem;
+    }
+
+    .historia-mascote p, .legenda{
+        font-size: 0.875rem;
+    }
+}
