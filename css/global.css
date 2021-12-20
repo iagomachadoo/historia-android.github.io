@@ -130,3 +130,34 @@ img{
 .mb-120{
     margin-bottom: 120px;
 }
+
+@media(max-width: 900px){
+    .historia-mascote h2, .novo-mascote h2{
+        font-size: 1.75rem;
+    }
+
+    .historia-mascote p, .novo-mascote p{
+        font-size: 1.125rem;
+    }
+}
+
+@media(max-width: 600px){
+    .historia-mascote h2, .novo-mascote h2{
+        font-size: 1.375rem;
+        margin-bottom: 20px;
+    }
+
+    .historia-mascote p, .legenda, .novo-mascote p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 400px){
+    .historia-mascote h2, .novo-mascote h2{
+        font-size: 1.125rem;
+    }
+
+    .historia-mascote p, .legenda, .novo-mascote p{
+        font-size: 0.875rem;
+    }
+}

@@ -1,0 +1,79 @@
+.novo-mascote div{
+    padding: 0 20px;
+}
+
+.novo-mascote h2{
+    padding-top: 120px;
+}
+
+.novo-mascote img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.novo-mascote p:last-child{
+    padding-bottom: 120px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.novo-mascote p{
+    max-width: 69ch;
+}
+
+@media(max-width: 1050px){
+    .bugdroid{
+        width: 450px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 900px){
+    .bugdroid{
+        width: 300px;
+    }
+}
+
+@media(max-width: 700px){
+    .novo-mascote{
+        margin-top: 60px;
+    }
+
+    .novo-mascote h2{
+        padding-top: 60px;
+    }
+
+    .novo-mascote p:last-child{
+        padding-bottom: 60px;
+    }
+}
+
+@media(max-width: 600px){
+    .novo-mascote{
+        margin-top: 40px;
+    }
+
+    .novo-mascote h2{
+        padding-top: 40px;
+    }
+
+    .novo-mascote p{
+        margin-bottom: 40px;
+    }
+
+    .novo-mascote img{
+        margin-bottom: 50px;
+    }
+
+    .novo-mascote p:last-child{
+        margin-bottom: 0;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 400px){
+    .bugdroid{
+        width: 250px;
+    }
+}
