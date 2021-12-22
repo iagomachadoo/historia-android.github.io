@@ -189,12 +189,9 @@
     }
 
     .lista-menu{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px 40px;
-        justify-items: center;
+        gap: 10px; 
     }
-
+    
     .div-header{
         gap: 0;
     }
