@@ -1,0 +1,244 @@
+.aside-aprender-mais{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.aside-aprender-mais .container-1{
+    padding-top: 120px;
+}
+
+.div-aprender-mais{
+    background-color: #ffffff;
+}
+
+.header-aprender-mais{
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+}
+
+.header-aprender-mais img{
+    width: 61.5px;
+    height: auto;
+}
+
+.div-aprender-mais p{
+    max-width: 69ch;
+    margin: 80px 100px;
+}
+
+.div-aprender-mais .para-2{
+    margin-bottom: 40px;
+}
+
+.div-aprender-mais .para-3{
+    margin-top: 0;
+}
+
+.div-aprender-mais p:last-child{
+    margin-bottom: 0;
+    padding-bottom: 80px;
+}
+
+.aside-aprender-mais .para-4{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    max-width: 51ch;
+    padding-bottom: 120px;
+}
+
+.lista-versao-android{
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 100px;
+    border:  2px solid var(--fundo-2);
+    padding: 40px;
+    line-height: 1.7;
+    gap: 0 20px;
+    font-family: var(--fonte-padrao);
+}
+
+.item-lista-versao-android{
+    position: relative;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.lista-versao-android > div:first-child, .lista-versao-android > div{
+    position: relative;
+}
+
+.lista-versao-android > div:first-child::before, .lista-versao-android > div:nth-child(2)::before{
+    content: "";
+    width: 2px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: url("../img/separador.svg");
+    top: 0;
+    left: calc(100% + 9px);
+}
+
+@media(max-width: 1150px){
+    .item-lista-versao-android{
+        font-size: 0.875rem;
+    }
+}
+
+@media(max-width: 1060px){
+    .lista-versao-android{
+        padding: 20px;
+    }
+}
+
+@media(max-width: 1020px){
+    .lista-versao-android{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .lista-versao-android > div:last-child::before{
+        content: "";
+        width: 2px;
+        height: 100%;
+        display: block;
+        position: absolute;
+        background: url("../img/separador.svg");
+        top: 0;
+        left: calc(100% + 9px);
+    }
+
+    .lista-versao-android > div:nth-child(2)::before{
+        display: none;
+    }
+}
+
+@media(max-width: 900px){
+    .aside-aprender-mais .container-1{
+        padding-top: 80px;
+    }
+
+    .header-aprender-mais{
+        padding: 10px 30px;
+    }
+
+    .div-aprender-mais .para-1{
+        margin: 60px 100px;
+    }
+
+    .div-aprender-mais .para-2{
+        margin: 60px 100px 40px;
+    }
+
+    .div-aprender-mais p:last-child{
+        padding-bottom: 60px;
+    }
+
+    .aside-aprender-mais .para-4{
+        margin-top: 60px;
+        padding-bottom: 80px;
+    }
+}
+
+@media(max-width: 790px){
+    .div-aprender-mais .para-1,
+    .div-aprender-mais .para-2,
+    .div-aprender-mais .para-3{
+        margin-left: 50px;
+    }
+
+    .lista-versao-android{
+        line-height: 1.1;
+        margin: 0 50px;
+    }
+
+    .item-lista-versao-android{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 600px){
+    .aside-aprender-mais .container-1{
+        padding-top: 60px;
+    }
+
+    .header-aprender-mais h3{
+        font-size: 1.375rem;
+    }
+
+    .header-aprender-mais img{
+        height: 55.13px;
+    }
+}
+
+@media(max-width: 530px){
+    .aside-aprender-mais .container-1{
+        padding-top: 40px;
+    }
+
+    .header-aprender-mais img{
+        display: none;
+    }
+
+    .div-aprender-mais .para-1{
+        margin: 40px 50px;
+        max-width: initial;
+    }
+
+    .div-aprender-mais .para-2{
+        margin: 40px 50px;
+        max-width: initial;
+    }
+
+    .div-aprender-mais p:last-child{
+        padding-bottom: 40px;
+        max-width: initial;
+    }
+
+    .lista-versao-android{
+        grid-template-columns: 1fr;
+    }
+
+    .lista-versao-android > div:first-child::before, .lista-versao-android > div:last-child::before{
+        display: none;
+    }
+
+    .item-lista-versao-android{
+        flex-direction: row;
+    }
+
+    .aside-aprender-mais .para-4{
+        margin-top: 40px;
+        padding-bottom: 40px;
+        max-width: initial;
+    }
+}
+
+@media(max-width: 450px){
+    .header-aprender-mais{
+        padding: 10px 20px;
+    }
+
+    .div-aprender-mais .para-1{
+        margin: 40px 20px;
+    }
+
+    .div-aprender-mais .para-2{
+        margin: 40px 20px;
+    }
+
+    .div-aprender-mais p:last-child{
+        margin: 40px 20px;
+    }
+
+    .lista-versao-android{
+        margin: 0 20px;
+    }
+
+    .item-lista-versao-android{
+        flex-direction: column;
+        justify-content: initial;
+        margin-bottom: 15px;
+    }
+}

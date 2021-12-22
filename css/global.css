@@ -121,6 +121,10 @@ img{
     background-color: var(--fundo-2);
 }
 
+.mt-80{
+    margin-top: 80px;
+}
+
 .mt-120{
     margin-top: 120px;
 }
@@ -142,32 +146,45 @@ img{
 }
 
 @media(max-width: 900px){
-    .historia-mascote h2, .novo-mascote h2{
+    .historia-mascote h2, 
+    .novo-mascote h2, 
+    .header-aprender-mais h3{
         font-size: 1.75rem;
     }
 
-    .historia-mascote p, .novo-mascote p{
+    .historia-mascote p, 
+    .novo-mascote p, 
+    .aside-aprender-mais p{
         font-size: 1.125rem;
     }
 }
 
 @media(max-width: 600px){
-    .historia-mascote h2, .novo-mascote h2{
+    .historia-mascote h2, 
+    .novo-mascote h2{
         font-size: 1.375rem;
         margin-bottom: 20px;
     }
 
-    .historia-mascote p, .legenda, .novo-mascote p{
+    .historia-mascote p, 
+    .legenda, 
+    .novo-mascote p,
+    .aside-aprender-mais p{
         font-size: 1rem;
     }
 }
 
 @media(max-width: 400px){
-    .historia-mascote h2, .novo-mascote h2{
+    .historia-mascote h2, 
+    .novo-mascote h2,
+    .header-aprender-mais h3{
         font-size: 1.125rem;
     }
 
-    .historia-mascote p, .legenda, .novo-mascote p{
+    .historia-mascote p, 
+    .legenda, 
+    .novo-mascote p,
+    .aside-aprender-mais p{
         font-size: 0.875rem;
     }
 }
