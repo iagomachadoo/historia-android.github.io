@@ -8,6 +8,15 @@
     justify-self: center;
 }
 
+.footer > p a{
+    color: inherit;
+}
+
+.footer > p a:hover{
+    color: #ACFFD2;
+    text-decoration: underline;
+}
+
 .footer > p + p{
     padding-top: 120px;
     max-width: 41ch;

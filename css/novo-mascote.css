@@ -6,6 +6,21 @@
     padding-top: 120px;
 }
 
+.novo-mascote a{
+    color: inherit;
+    position: relative;
+}
+
+.novo-mascote a:hover{
+    color: #00632D;
+}
+
+.novo-mascote a > img{
+    width: 18px;
+    height: auto;
+    display: inline-block;
+}
+
 .novo-mascote img{
     margin-right: auto;
     margin-left: auto;
@@ -30,6 +45,10 @@
 }
 
 @media(max-width: 900px){
+    .novo-mascote a > img{
+        width: 14px;
+    }
+
     .bugdroid{
         width: 300px;
     }
@@ -62,6 +81,11 @@
         margin-bottom: 40px;
     }
 
+    .novo-mascote a > img{
+        width: 12px;
+        margin-bottom: 0;
+    }
+
     .novo-mascote img{
         margin-bottom: 50px;
     }
@@ -73,6 +97,10 @@
 }
 
 @media(max-width: 400px){
+    .novo-mascote a > img{
+        width: 11px;
+    }
+
     .bugdroid{
         width: 250px;
     }

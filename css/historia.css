@@ -6,6 +6,21 @@
     max-width: 69ch;
 }
 
+.historia-mascote a{
+    color: inherit;
+    position: relative;
+}
+
+.historia-mascote a:hover{
+    color: #00632D;
+}
+
+.historia-mascote a > img{
+    width: 18px;
+    height: auto;
+    display: inline-block;
+}
+
 .img-dan-droids{
     margin-right: auto;
     margin-left: auto;
@@ -13,6 +28,8 @@
 
 .legenda{
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media(max-width: 970px){
@@ -24,6 +41,10 @@
 @media(max-width: 900px){
     .historia-mascote h2:first-child{
         font-size: 2rem;
+    }
+
+    .historia-mascote a > img{
+        width: 14px;
     }
     
     .legenda{
@@ -46,11 +67,19 @@
         font-size: 1.75rem;
         margin-top: 40px;
     }
+
+    .historia-mascote a > img{
+        width: 12px;
+    }
 }
 
 @media(max-width: 400px){
     .historia-mascote h2:first-child{
         font-size: 1.5rem;
         max-width: 20ch;
+    }
+
+    .historia-mascote a > img{
+        width: 11px;
     }
 }
